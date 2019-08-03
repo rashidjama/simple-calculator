@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100i&display=swap');
+
+body {
+  font-family: roboto, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.calculator {
+  width: 200px;
+  margin-left: calc(50% - 150px);
+}
+.row {
+  display: table;
+  table-layout: fixed;
+  width: 300px;
+}
+.column {
+  display: table-cell;
+}
+.cal__btn {
+  width: 25px;
+  height: 45px;
+  background: silver;
+  border: 1px solid gray;
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  padding: 0.3rem;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+.cal__btn:hover {
+  background: blue;
+}
+#zero {
+  width: 44px;
+  text-align: left;
+  padding: 0.8rem
+}
+#ac {
+  width: 60px;
+  text-align: left;
+}
+.cal__btn-operator {
+  background: rgb(206, 146, 34);
+}
+.btn__display {
+  width: 100%;
+  height: 70px;
+  padding: 40px 15px 0 0;
+  font-size: 50px;
+  text-align: right;
+  background: #707070;
+  border-radius: 13px 13px 0 0;
+}
